@@ -27,6 +27,7 @@ git push origin HotFix
 Creating a branch named Integration and push it to remote.
 
 ```
+git switch main
 git checkout -b Integration
 git push origin Integration
 ```
@@ -58,8 +59,8 @@ Merge the PR and delete the Feature2 branch after successfull merge.
 Switch to Feature1 branch and make some changes and rebase it to integration branch
 
 ```
+git pull origin Integration
 git switch Feature1
-git pull origin Feature1
 touch Feature1.txt
 
 git add .
@@ -72,8 +73,6 @@ Switch to Integration branch and push the changes to remote
 
 ```
 git switch Integration
-
-git pull origin Integration
 
 git add .
 git commit -m "changes: after rebase"
