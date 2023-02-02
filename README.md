@@ -1,5 +1,5 @@
-###Aswat Singh Bisht
-###TAS127
+## Aswat Singh Bisht
+## TAS127
 ### Create a repo named Git-Assignment
 
 Clone the empty repository
